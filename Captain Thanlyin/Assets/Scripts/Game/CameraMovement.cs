@@ -8,6 +8,7 @@ public class CameraMovement : MonoBehaviour
     {
         
         FindObjectOfType<AudioManager>().Play("BGM");
+        FindObjectOfType<AudioManager>().Unmute("BGM");
     }
 
 

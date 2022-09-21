@@ -153,6 +153,7 @@ public class Player : MonoBehaviour
                 Die = true;
                 myBody.AddForce(new Vector2(knockBackForce, 1), ForceMode2D.Impulse); //effect for knockback
                 FindObjectOfType<AudioManager>().Play("DogHit");
+                FindObjectOfType<AudioManager>().Mute("BGM");
                 StartCoroutine(CatDie());         //StartCoroutine(DieFunction()); //Functions to do after dying
             }
 
@@ -181,6 +182,7 @@ public class Player : MonoBehaviour
                 Die = true;
                 myBody.AddForce(new Vector2(knockBackForce, 1), ForceMode2D.Impulse); //effect for knockback
                 FindObjectOfType<AudioManager>().Play("CandyHit");
+                FindObjectOfType<AudioManager>().Mute("BGM");
                 StartCoroutine(CatDie());         //StartCoroutine(DieFunction()); //Functions to do after dying
             }
 
@@ -315,7 +317,7 @@ public class Player : MonoBehaviour
     IEnumerator Dash(float direction)
     {
         GodModePS.Play();
-        FindObjectOfType<AudioManager>().Play("Bubble");
+        FindObjectOfType<AudioManager>().Play("Dash");
         Ghosting.instance.makeGhost = true;
         isDashing = true;
         myBody.velocity = new Vector2(myBody.velocity.x, 0f);
@@ -358,6 +360,7 @@ public class Player : MonoBehaviour
     IEnumerator Revive()
     {
         GodModePS.Play();
+        FindObjectOfType<AudioManager>().Play("Bubble");
         anim.SetBool("Die", false);
         PlayerSpeed = 31;
         Die = false;
@@ -380,10 +383,12 @@ public class Player : MonoBehaviour
         Bubble.GetComponent<SpriteRenderer>().enabled = false;
         jumpForce = 18f;
         myBody.gravityScale = gravity;
+        FindObjectOfType<AudioManager>().Play("Bubble Bursts");
     }
 
     IEnumerator CatDie()
     {
+        
         yield return new WaitForSeconds(0.5f);
         anim.SetBool("Die", true);
         yield return new WaitForSeconds(0.5f);

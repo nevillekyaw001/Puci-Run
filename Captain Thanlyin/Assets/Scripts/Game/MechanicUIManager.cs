@@ -93,6 +93,7 @@ public class MechanicUIManager : MonoBehaviour
             GameOverPanel.SetActive(false);
             Player.Instance.ReviveButton();
             //StartCoroutine(BubbleDisappear(Player.Instance.ReviveEffectTime + 2f));
+            FindObjectOfType<AudioManager>().Unmute("BGM");
             DashButton.SetActive(true);
             DashButtonCD.SetActive(true);
             IngameScore.SetActive(true);
@@ -103,6 +104,7 @@ public class MechanicUIManager : MonoBehaviour
     public void ReloadScene()
     {
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+
     }
 
     public void FD()
@@ -118,11 +120,15 @@ public class MechanicUIManager : MonoBehaviour
     public void Shop()
     {
         SceneManager.LoadScene("Shop");
+        FindObjectOfType<AudioManager>().StopPlaying("BGM");
+        FindObjectOfType<AudioManager>().Play("BGM Menu");
     }
 
     public void Home()
     {
         SceneManager.LoadScene("MainMenu");
+        FindObjectOfType<AudioManager>().StopPlaying("BGM");
+        FindObjectOfType<AudioManager>().Play("BGM Menu");
     }
 
     IEnumerator AppearDashB()

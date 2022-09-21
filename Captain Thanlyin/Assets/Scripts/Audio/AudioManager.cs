@@ -7,6 +7,7 @@ public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds;
     public static AudioManager instance;
+    public bool muteButton;
     void Awake()
     {
         if (instance == null)
@@ -37,7 +38,7 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         Play("BGM Menu");
-       
+        Unmute("BGM Menu");
     }
 
     public void Play (string name)
@@ -48,10 +49,19 @@ public class AudioManager : MonoBehaviour
 
     public void StopPlaying(string name)
     {
+        Sound s = Array.Find(sounds, sound => sound.name == name);       
+        s.source.Stop();  
+    }
+
+    public void Mute (string name)
+    {
         Sound s = Array.Find(sounds, sound => sound.name == name);
-        
-        
-        s.source.Stop();
-        
+        s.source.mute = true;
+    }
+
+    public void Unmute (string name)
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == name);
+        s.source.mute = false;
     }
 }

@@ -7,12 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-
-
-    public void Play ()
+    public void Play()
     {
         SceneManager.LoadSceneAsync(PlayerPrefs.GetString("map", "1"));
-
         FindObjectOfType<AudioManager>().StopPlaying("BGM Menu");
         FindObjectOfType<AudioManager>().Play("Buttons");
     }
@@ -37,5 +34,5 @@ public class MainMenu : MonoBehaviour
         FindObjectOfType<AudioManager>().Play("Buttons");
     }
 
-
+  
 }
