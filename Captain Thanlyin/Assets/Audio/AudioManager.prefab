@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1025599962711612343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1025599962711612341}
+  - component: {fileID: 1025599962711612342}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1025599962711612341
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025599962711612343}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 23.774708, y: -3.115999, z: -105.40388}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1025599962711612342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025599962711612343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f7e27f06338364287c0eeba989f61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: BGM Menu
+    clip: {fileID: 8300000, guid: 6d0754a1380aceb4d99c0b81d7a111df, type: 3}
+    volume: 1
+    loop: 1
+    mute: 0
+    source: {fileID: 0}
+  - name: BGM
+    clip: {fileID: 8300000, guid: dd86c96e52a46419ca0e0a79558372b3, type: 3}
+    volume: 1
+    loop: 1
+    mute: 0
+    source: {fileID: 0}
+  - name: Bubble
+    clip: {fileID: 8300000, guid: e535b5d20a5ac434bb41629100e5cab8, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Bubble Bursts
+    clip: {fileID: 8300000, guid: ab1431c6d4038824faa08cf3d930a818, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Buttons
+    clip: {fileID: 8300000, guid: 4371bbae552bcaf4689ae9c9acb5c2e6, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Dash
+    clip: {fileID: 8300000, guid: 7f4654d7a40f3f54086c070f636fbb8b, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: CandyHit
+    clip: {fileID: 8300000, guid: 73bda5577917f2345a75cd992b2ee512, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: DogHit
+    clip: {fileID: 8300000, guid: 96067abbc61006d49a2f529bdf5b897f, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Revive
+    clip: {fileID: 8300000, guid: 166bcaac1f7b34a42ac1d69fd9270c1f, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: UpDown
+    clip: {fileID: 8300000, guid: 052ce07a2a572e34b8fb6393fd904149, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}

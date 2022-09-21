@@ -1,0 +1,1728 @@
+fileFormatVersion: 2
+guid: 998bf390cf5894912aa042eee9a8a32c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 725
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17200bc78c06c4f50800000000000000
+      internalID: 6866969946034799217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 725
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63417e28500082970800000000000000
+      internalID: 8730227901328725046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 725
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587efc07772d99d80800000000000000
+      internalID: -8243326232489367675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 725
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdfb00458128eff0800000000000000
+      internalID: -6718543252161085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 677
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4214ff847ef4360800000000000000
+      internalID: 7156192633621128410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 677
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cc0c5a51f2bf070800000000000000
+      internalID: 8141152521423998086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 677
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67b2499bced73910800000000000000
+      internalID: 1817165940698298223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 677
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b251d834e66fa8c10800000000000000
+      internalID: 2056727133288207659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 629
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9776bef063064e030800000000000000
+      internalID: 3523046593822156665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 629
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caeb7523d3333bef0800000000000000
+      internalID: -93674829314015572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 629
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c504cd73a064480800000000000000
+      internalID: -8915427177298633602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 629
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e3b62d891541160800000000000000
+      internalID: 6995305838020345376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 581
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9b1b04ffd6b7110800000000000000
+      internalID: 1259721463849662914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 581
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9017fe62023aa7ea0800000000000000
+      internalID: -5874203405463883511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 581
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6fe1ccd3afdd030800000000000000
+      internalID: 3521245626998126312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 581
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15af67a794bc94950800000000000000
+      internalID: 6433897059123133009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 533
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b142704c816b7230800000000000000
+      internalID: 3637608379036352953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 533
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3321ba54aaefe5e70800000000000000
+      internalID: 9105995503856456243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 533
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db9bd6fed9766ee0800000000000000
+      internalID: -1268192246526927914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 533
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa14ed4b9b42e03b0800000000000000
+      internalID: -5544453711224487505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 485
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29d6b932d61a2a10800000000000000
+      internalID: 1885344486175201583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 485
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ef0390681d27d90800000000000000
+      internalID: -7101383288799822239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 485
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074c50ee5c8bcbe20800000000000000
+      internalID: 3367769781607711856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 485
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9bc96f5c333d0a0800000000000000
+      internalID: -6858080882216093261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 437
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7689b8c7613dfb100800000000000000
+      internalID: 126051408121927783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 437
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f005467ebd0bef9e0800000000000000
+      internalID: -1585635560261398513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 437
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668a1036a87ddf8a0800000000000000
+      internalID: -6269618116863350682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 437
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46989361d34281cf0800000000000000
+      internalID: -281435131926181532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 389
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e5187f7746a7ab0800000000000000
+      internalID: -5009581169079919086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 389
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4b5789afe693410800000000000000
+      internalID: 1457317977009796322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 389
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1940dd406b2b378f0800000000000000
+      internalID: -543894635146312559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 389
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e121a044bf2531d0800000000000000
+      internalID: -3371736294792027674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 341
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53702f1a54319e30800000000000000
+      internalID: 4508442263648498522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 341
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bf70f972819e4c0800000000000000
+      internalID: -4257845414251201738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 341
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c4528c946537630800000000000000
+      internalID: 3923574575260322958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 341
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a406f4065355bc7b0800000000000000
+      internalID: -5202971256759033782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 341
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c090840e5bb99f7d0800000000000000
+      internalID: -2884102880899888884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 341
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff536bbb961e52d60800000000000000
+      internalID: 7864940168509535743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 293
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375b93b3a50e09580800000000000000
+      internalID: -8822304991873485453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 293
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53d626f5393c9150800000000000000
+      internalID: 5880638117364814683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 293
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6827837d109b7eb30800000000000000
+      internalID: 4316622185414816390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 293
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583ec1e99ff1399b0800000000000000
+      internalID: -5074677198156405883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 293
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363973f87859a0ff0800000000000000
+      internalID: -69078434814913693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 293
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569741bbc5e8cc3d0800000000000000
+      internalID: -3185014307530966683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 245
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03efbf2a531f971a0800000000000000
+      internalID: -6811147748751180240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 245
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2d2cd36ffd8c7c0800000000000000
+      internalID: -4050741616128634169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 245
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d394e26ff966ef0800000000000000
+      internalID: -115228860764046033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 245
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c065c15a43886a0800000000000000
+      internalID: -6446844982831215556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 245
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40cb4111919cede0800000000000000
+      internalID: -1302506139970453427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 245
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf699830c2ecd0c0800000000000000
+      internalID: -4549512208339865679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 197
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb835ec2467b180e0800000000000000
+      internalID: -2269331096340186946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 197
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636526888322007b0800000000000000
+      internalID: -5260166738567080394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 197
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239079b760dda98c0800000000000000
+      internalID: -3991635099797485262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 197
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a82d09e03b41990800000000000000
+      internalID: -7416105811231733136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 197
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66552cc1f48d35d0800000000000000
+      internalID: -3081160396004567441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 197
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c8996158f7ac360800000000000000
+      internalID: 7190699964636957803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 149
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b32d083038ac3c0800000000000000
+      internalID: -4338511239948649695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 149
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c085695a0da89a0800000000000000
+      internalID: -6229937724903125922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 149
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7fafbadcf40fe40800000000000000
+      internalID: 5688134074141177792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 149
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42e5257fd54fe0b0800000000000000
+      internalID: -5697258177554947510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 101
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5118fc0fd27d60e40800000000000000
+      internalID: 5622417777132273941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 101
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0468fc517aadf210800000000000000
+      internalID: 1368437265658307599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 101
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45977c569018452e0800000000000000
+      internalID: -2137942045731882668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 101
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0da382c083a6ce0800000000000000
+      internalID: -1411253908361523011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 53
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fe7a0e8446d9390800000000000000
+      internalID: -7809975914621047023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 53
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c106f67e692be29a0800000000000000
+      internalID: -6255866471173365732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 53
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b34b7054afdc3c0800000000000000
+      internalID: -4337535691698979991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 53
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1f6e374e1888f20800000000000000
+      internalID: 3425130334812303791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 5
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2f60feb0ffa4210800000000000000
+      internalID: 1318146267679224554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 5
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ea95326d1dce100800000000000000
+      internalID: 138716406187929104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 5
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721b09c69ad9efcf0800000000000000
+      internalID: -216562381070749401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 5
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0541a6a62a6cbd9a0800000000000000
+      internalID: -6207149260527758256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rank emblems spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 5
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464e8550cb84f2f40800000000000000
+      internalID: 5705859225282471012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Rank emblems spritesheet_0: 6866969946034799217
+      Rank emblems spritesheet_58: 5688134074141177792
+      Rank emblems spritesheet_60: 5622417777132273941
+      Rank emblems spritesheet_38: -8822304991873485453
+      Rank emblems spritesheet_3: -6718543252161085
+      Rank emblems spritesheet_1: 8730227901328725046
+      Rank emblems spritesheet_72: 5705859225282471012
+      Rank emblems spritesheet_16: 3637608379036352953
+      Rank emblems spritesheet_14: 3521245626998126312
+      Rank emblems spritesheet_4: 7156192633621128410
+      Rank emblems spritesheet_2: -8243326232489367675
+      Rank emblems spritesheet_32: 4508442263648498522
+      Rank emblems spritesheet_8: 3523046593822156665
+      Rank emblems spritesheet_57: -6229937724903125922
+      Rank emblems spritesheet_64: -7809975914621047023
+      Rank emblems spritesheet_9: -93674829314015572
+      Rank emblems spritesheet_6: 1817165940698298223
+      Rank emblems spritesheet_51: -5260166738567080394
+      Rank emblems spritesheet_68: 1318146267679224554
+      Rank emblems spritesheet_33: -4257845414251201738
+      Rank emblems spritesheet_65: -6255866471173365732
+      Rank emblems spritesheet_12: 1259721463849662914
+      Rank emblems spritesheet_29: 1457317977009796322
+      Rank emblems spritesheet_36: -2884102880899888884
+      Rank emblems spritesheet_71: -6207149260527758256
+      Rank emblems spritesheet_50: -2269331096340186946
+      Rank emblems spritesheet_56: -4338511239948649695
+      Rank emblems spritesheet_21: -7101383288799822239
+      Rank emblems spritesheet_42: -69078434814913693
+      Rank emblems spritesheet_46: -115228860764046033
+      Rank emblems spritesheet_7: 2056727133288207659
+      Rank emblems spritesheet_19: -5544453711224487505
+      Rank emblems spritesheet_24: 126051408121927783
+      Rank emblems spritesheet_22: 3367769781607711856
+      Rank emblems spritesheet_39: 5880638117364814683
+      Rank emblems spritesheet_54: -3081160396004567441
+      Rank emblems spritesheet_44: -6811147748751180240
+      Rank emblems spritesheet_11: 6995305838020345376
+      Rank emblems spritesheet_5: 8141152521423998086
+      Rank emblems spritesheet_69: 138716406187929104
+      Rank emblems spritesheet_49: -4549512208339865679
+      Rank emblems spritesheet_66: -4337535691698979991
+      Rank emblems spritesheet_30: -543894635146312559
+      Rank emblems spritesheet_40: 4316622185414816390
+      Rank emblems spritesheet_37: 7864940168509535743
+      Rank emblems spritesheet_25: -1585635560261398513
+      Rank emblems spritesheet_47: -6446844982831215556
+      Rank emblems spritesheet_53: -7416105811231733136
+      Rank emblems spritesheet_67: 3425130334812303791
+      Rank emblems spritesheet_15: 6433897059123133009
+      Rank emblems spritesheet_59: -5697258177554947510
+      Rank emblems spritesheet_62: -2137942045731882668
+      Rank emblems spritesheet_63: -1411253908361523011
+      Rank emblems spritesheet_55: 7190699964636957803
+      Rank emblems spritesheet_52: -3991635099797485262
+      Rank emblems spritesheet_61: 1368437265658307599
+      Rank emblems spritesheet_26: -6269618116863350682
+      Rank emblems spritesheet_13: -5874203405463883511
+      Rank emblems spritesheet_35: -5202971256759033782
+      Rank emblems spritesheet_31: -3371736294792027674
+      Rank emblems spritesheet_41: -5074677198156405883
+      Rank emblems spritesheet_45: -4050741616128634169
+      Rank emblems spritesheet_27: -281435131926181532
+      Rank emblems spritesheet_34: 3923574575260322958
+      Rank emblems spritesheet_20: 1885344486175201583
+      Rank emblems spritesheet_17: 9105995503856456243
+      Rank emblems spritesheet_70: -216562381070749401
+      Rank emblems spritesheet_23: -6858080882216093261
+      Rank emblems spritesheet_10: -8915427177298633602
+      Rank emblems spritesheet_28: -5009581169079919086
+      Rank emblems spritesheet_43: -3185014307530966683
+      Rank emblems spritesheet_18: -1268192246526927914
+      Rank emblems spritesheet_48: -1302506139970453427
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

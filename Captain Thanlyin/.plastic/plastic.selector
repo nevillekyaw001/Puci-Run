@@ -1,0 +1,4 @@
+repository "PR@GOAT_Studios_Myanmar@cloud"
+  path "/"
+    br "/main"
+    co "/main"
