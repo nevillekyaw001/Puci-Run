@@ -7,15 +7,14 @@ public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds;
     public static AudioManager instance;
-    public bool muteButton;
+    public bool muted;
+    AudioSource[] AS;
     void Awake()
     {
         if (instance == null)
         
             instance = this;
-            
         
-
         else
         {
             Destroy(gameObject);
@@ -38,13 +37,33 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         Play("BGM Menu");
-        Unmute("BGM Menu");
+        AS = GetComponents<AudioSource>();
+    }
+
+    private void Update()
+    {
+        if (muted)
+        {
+            for (int i = 0; i < AS.Length; i++)
+            {
+                AudioSource ASE = AS[i];
+                ASE.mute = true;
+            }
+        }
+        else
+        {
+            for (int i = 0; i < AS.Length; i++)
+            {
+                AudioSource ASE = AS[i];
+                ASE.mute = false;
+            }
+        }
     }
 
     public void Play (string name)
-    {
-        Sound s = Array.Find(sounds, sound => sound.name == name);
-        s.source.Play();
+    {   
+            Sound s = Array.Find(sounds, sound => sound.name == name);
+            s.source.Play(); 
     }
 
     public void StopPlaying(string name)

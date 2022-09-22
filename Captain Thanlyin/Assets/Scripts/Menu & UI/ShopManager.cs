@@ -404,7 +404,7 @@ public class ShopManager : MonoBehaviour
     public void DashUpgrade()
     {
 
-        if (PointSystem.ReviveSecond < 3.5f && PlayerPrefs.GetInt("AdsPoints") >= 300)
+        if (PointSystem.DashSecond < 3.5f && PlayerPrefs.GetInt("AdsPoints") >= 300)
         {
             PointSystem.DashSecond += 0.7f;
             PointSystem.UpdateDashSecond();
