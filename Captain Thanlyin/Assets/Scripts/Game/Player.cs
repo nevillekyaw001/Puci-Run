@@ -16,14 +16,16 @@ public class Player : MonoBehaviour
     public ParticleSystem GodModePS;
     SpriteRenderer Bubble;
 
-    public float PlayerSpeed = 1;
+    public float PlayerSpeed = 7;
+    float MaxSpeed = 22;
+
     private float knockBackForce = -5;
     private float jumpForce = 18f;
     private float jumpDownForce = -8f;
     private float jumpDownAndroid = -36f;
     float dashDistance = 6f;
     public float GodModeEffectTime = 5;
-    public float ReviveEffectTime = 3;
+    public float ReviveEffectTime = 5f;
 
     private bool inAir; //New Bool for Jumping Down
     public bool isGrounded;
@@ -53,15 +55,13 @@ public class Player : MonoBehaviour
     {
         Instance = this;
 
-        GodModeEffectTime = PlayerPrefs.GetFloat("GodSecond", 5);
-        ReviveEffectTime = PlayerPrefs.GetFloat("ReviveSecond", 3);
 
     }
 
     void Start()
     {
         StartCoroutine(StartMoving());
-        StartCoroutine(Timeline());
+        //StartCoroutine(Timeline());
 
         myBody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -82,12 +82,28 @@ public class Player : MonoBehaviour
         if (!Die && permission)
         {
             MovePlayer();
+            if(PlayerSpeed < MaxSpeed)
+            {
+                PlayerSpeed += 0.2f * Time.deltaTime;
+            }
+            else if (PlayerSpeed >= MaxSpeed)
+            {
+                PlayerSpeed = MaxSpeed;
+            }
         }
         else if (CatRevive)
         {
             if (!Die && permission)
             {
                 MovePlayer();
+                if (PlayerSpeed < MaxSpeed)
+                {
+                    PlayerSpeed += 0.2f * Time.deltaTime;
+                }
+                else if (PlayerSpeed >= MaxSpeed)
+                {
+                    PlayerSpeed = MaxSpeed;
+                }
             }
         }
 
@@ -195,8 +211,6 @@ public class Player : MonoBehaviour
             {
                 MechanicUIManager.instance.LD();
             }
-
-            
         }
     }
 
@@ -283,36 +297,36 @@ public class Player : MonoBehaviour
         permission = true;
     }
 
-    IEnumerator Timeline() //Timeline management for global scripts
-    {
-        yield return new WaitForSeconds(5);
-        PlayerSpeed = 13;
-        Debug.Log("cam is now 11");
+    //IEnumerator Timeline() //Timeline management for global scripts
+    //{
+    //    yield return new WaitForSeconds(5);
+    //    PlayerSpeed = 13;
+    //    Debug.Log("cam is now 11");
 
-        yield return new WaitForSeconds(10);
-        PlayerSpeed = 16;
-        Debug.Log("cam is now 12");
+    //    yield return new WaitForSeconds(10);
+    //    PlayerSpeed = 16;
+    //    Debug.Log("cam is now 12");
 
-        yield return new WaitForSeconds(15);
-        PlayerSpeed = 19;
-        Debug.Log("cam is now 13");
+    //    yield return new WaitForSeconds(15);
+    //    PlayerSpeed = 19;
+    //    Debug.Log("cam is now 13");
 
-        yield return new WaitForSeconds(20);
-        PlayerSpeed = 22;
-        Debug.Log("cam is now 14");
+    //    yield return new WaitForSeconds(20);
+    //    PlayerSpeed = 22;
+    //    Debug.Log("cam is now 14");
 
-        yield return new WaitForSeconds(25);
-        PlayerSpeed = 25;
-        Debug.Log("cam is now 15");
+    //    yield return new WaitForSeconds(25);
+    //    PlayerSpeed = 25;
+    //    Debug.Log("cam is now 15");
 
-        yield return new WaitForSeconds(30);
-        PlayerSpeed = 28;
-        Debug.Log("cam is now 16");
+    //    yield return new WaitForSeconds(30);
+    //    PlayerSpeed = 28;
+    //    Debug.Log("cam is now 16");
 
-        yield return new WaitForSeconds(40);
-        PlayerSpeed = 31;
-        Debug.Log("cam is now 17");
-    }
+    //    yield return new WaitForSeconds(40);
+    //    PlayerSpeed = 31;
+    //    Debug.Log("cam is now 17");
+    //}
 
     IEnumerator Dash(float direction)
     {
@@ -374,7 +388,7 @@ public class Player : MonoBehaviour
         Bubble.GetComponent<SpriteRenderer>().enabled = true;
 
         yield return new WaitForSeconds(ReviveEffectTime + PointSystem.ReviveSecond);
-        PlayerSpeed = 13;
+        PlayerSpeed = 15;
         bubbleFade.SetBool("Fade", true);
         yield return new WaitForSeconds(2f);
         bubbleFade.SetBool("Fade", false);

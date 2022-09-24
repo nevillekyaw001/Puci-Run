@@ -6,7 +6,7 @@ public class Collector : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy") || collision.CompareTag("Player") || collision.CompareTag("Ghosting"))
+        if (collision.gameObject.tag == "Candy" || collision.gameObject.tag == "Dog" || collision.gameObject.tag == "Player")
         {
             Destroy(collision.gameObject);
         }

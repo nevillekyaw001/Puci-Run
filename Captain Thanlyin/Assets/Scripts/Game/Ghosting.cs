@@ -15,6 +15,7 @@ public class Ghosting : MonoBehaviour
     {
         instance = this;
         ghostDelaySecond = ghostDelay;
+        
     }
 
     void Update()
@@ -29,7 +30,11 @@ public class Ghosting : MonoBehaviour
             {
                 GameObject currentGhost = Instantiate(Ghost, transform.position, transform.rotation);
                 ghostDelaySecond = ghostDelay;
+
+                
             }
         }
     }
+    
+
 }

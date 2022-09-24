@@ -431,7 +431,7 @@ public class ShopManager : MonoBehaviour
 
     public void ReviveUpgrade()
     {
-        if (PointSystem.ReviveSecond < 5f && PlayerPrefs.GetInt("AdsPoints") >= 300)
+        if (PointSystem.ReviveSecond < 10f && PlayerPrefs.GetInt("AdsPoints") >= 300)
         {
             PointSystem.ReviveSecond += 1f;
             PointSystem.UpdateReviveSecond();

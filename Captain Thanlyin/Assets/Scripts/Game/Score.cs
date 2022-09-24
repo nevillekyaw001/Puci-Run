@@ -7,9 +7,11 @@ using TMPro;
 public class Score : MonoBehaviour
 {
     public static Score instance;
-    
-    public TMP_Text ScoreIngame;
 
+    int coinAmount;
+    public Text Coin;
+
+    public TMP_Text ScoreIngame;
     public TMP_Text GoScore;
     public TMP_Text GoHighScore;
     public TMP_Text GoNewHighScore;
@@ -37,6 +39,8 @@ public class Score : MonoBehaviour
     private void Update()
     {
         AddPoint();
+        coinAmount = PlayerPrefs.GetInt("AdsPoints");
+        Coin.text = coinAmount.ToString();
 
         ScoreIngame.SetText(distance.ToString("f2") + " m");
 
