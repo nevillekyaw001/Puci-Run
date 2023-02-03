@@ -1,2 +1,2 @@
-# Captain-Thanlyin
+# Puci Run!
 Charity Game
